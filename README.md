@@ -8,7 +8,7 @@
 
 Taking what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-Website can be accessed at: [jennchang23.github.io](https://jennchang23.github.io/)
+Website can be accessed at: [jennchang23.github.io](https://jennchang23.github.io/){:target="_blank"}
 
 - Programs/Tools Used:
   - HTML
