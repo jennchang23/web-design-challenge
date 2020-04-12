@@ -3,12 +3,12 @@
 ## Submission Overview
 
 <p align="center">
-  <img width="300" height="75" src="/WebVisualizations/Images/landing-lg.png">
+  <img width="500" height="300" src="/WebVisualizations/Images/landing-lg.png">
 </p>
 
 Taking what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-Website can be accessed at: jennchang23.github.io
+Website can be accessed at: [jennchang23.github.io](jennchang23.github.io)
 
 - Programs/Tools Used:
   - HTML
