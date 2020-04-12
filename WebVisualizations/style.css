@@ -1,0 +1,125 @@
+body{
+  background-color: lightgray;
+  overflow-x: hidden;
+}
+
+/* NAVIGATION BAR FORMATTING */
+/* Formatting 'Latitude' button on nav bar */
+.navbar-brand {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: teal;
+  color: white;
+}
+
+/* Formatting Plots, Comparison, Data buttons on nav bar */
+.navbar-nav a{
+  display: block;
+  color:grey;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Changes background color on nav bar elements when scrolled over */
+.navbar-nav a:hover {
+  background-color:lightgray;
+}
+
+/* FORMATTING ON ALL PAGES */
+/* Formatting the main summary box for each page */
+.box {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: -100px;
+  padding: 30px 30px;
+  background-color: white;
+  float: left;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
+/* Formatting the Visualizations box on each page */
+.box2 {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: -100px;
+  padding: 40px;
+  background-color: white;
+  float: left;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Formatting figures in Visualizations box */
+.contain {
+  width: 200px;
+  height: 175px;
+  object-fit: contain;
+  float: center;
+}
+
+/* Title of two boxes */
+.title {
+  padding: 10px;
+  color: teal;
+}
+
+/* FORMATTING LANDING PAGE */
+
+/* Formatting text in Summary box on landing page */
+.index-text {
+  width: 700px;
+  text-align: justify;
+  object-fit: contain;
+}
+
+/* Formatting figure in Summary box on landing page */
+.indexFig {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  float: left;
+}
+
+/* FORMATTING VISUALIZATIONS PAGES */
+/* For the main figure in each Visualization page's Summary box */
+.mainFig {
+  width: 700px;
+  height: 400px;
+  object-fit: contain;
+}
+
+/* For the text in each Visualization page's Summary box */
+.viz-text {
+  width: 700px;
+  text-align: justify;
+  object-fit: contain;
+}
+
+/* FORMATTING COMPARISONS PAGE */
+/* Formatting figures on Comparison page */
+.card-image-top{
+  width: 700px;
+  image-orientation: center;
+}
+
+/* Formatting figure titles on Comparison page */
+.fig-title {
+  color: teal;
+  margin-top: 20px;
+}
+
+/* Formatting figures on Comparison page */
+.card-image-top{
+  width: 700px;
+  image-orientation: center;
+}
+
+/* FORMATTING DATA PAGE */
+/* Formatting table on Data page */
+.table {
+  text-align: center;
+}
