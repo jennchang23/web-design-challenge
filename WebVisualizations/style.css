@@ -1,0 +1,110 @@
+body{
+  background-color: lightgray;
+  overflow-x: hidden;
+}
+
+/* Title of two boxes on landing page */
+.title {
+  padding: 10px;
+  color: teal;
+}
+
+/* Formatting main button of nav bar -- homepage */
+.navbar-brand {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: teal;
+  color: white;
+}
+
+/* Formatting rest of nav bar */
+.navbar-nav a{
+  display: block;
+  color:grey;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Changes background color on nav bar elements when scrolled over */
+.navbar-nav a:hover {
+  background-color:lightgray;
+}
+
+/* Formatting the main summary box for each page */
+.box {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: -100px;
+  padding: 30px 30px;
+  background-color: white;
+  float: left;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Formatting the Visualizations box on each page */
+.box2 {
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: -100px;
+  padding: 40px;
+  background-color: white;
+  float: left;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* For figure 1 in Summary box */
+.indexFig {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  float: left;
+}
+
+/* For figures in Visualizations box */
+.contain {
+  width: 200px;
+  height: 175px;
+  object-fit: contain;
+  float: center;
+}
+
+/* For the main figure in each Visualization page's Summary box */
+.mainFig {
+  width: 700px;
+  height: 400px;
+  object-fit: contain;
+}
+
+/* For the text in each Visualization page's Summary box */
+.viz-text {
+  width: 700px;
+  text-align: justify;
+  object-fit: contain;
+}
+
+/* Formatting figures on Comparison page */
+.card-image-top{
+  width: 700px;
+  image-orientation: center;
+}
+
+/* Formatting figure titles on Comparison page */
+.fig-title {
+  color: teal;
+  margin-top: 20px;
+}
+
+/* Formatting figures on Comparison page */
+.card-image-top{
+  width: 700px;
+  image-orientation: center;
+}
+
+/* Formatting table on Data page */
+.table {
+  text-align: center;
+}
